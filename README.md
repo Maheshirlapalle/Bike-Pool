@@ -69,8 +69,8 @@ docs/screenshots/
 
 **Windows PowerShell**
 ```powershell
-git clone https://github.com/<your-username>/daily-bikepool.git
-cd daily-bikepool
+git clone https://github.com/Maheshirlapalle/Bike-Pool.git
+cd Bike-Pool
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements-dev.txt
@@ -79,7 +79,7 @@ Copy-Item .env.example .env        # then edit .env
 
 **Linux / macOS**
 ```bash
-git clone https://github.com/<your-username>/daily-bikepool.git && cd daily-bikepool
+git clone https://github.com/Maheshirlapalle/Bike-Pool.git && cd Bike-Pool
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements-dev.txt
 cp .env.example .env               # then edit .env
