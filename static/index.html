@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BikePool – Buy bikes together, pay less</title>
+  <meta name="description" content="Join other buyers of the same bike in your city and unlock a group discount.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="/">Bike<span>Pool</span></a>
+    <nav id="tabs" aria-label="Sections">
+      <button data-tab="new" class="active">New bikes</button>
+      <button data-tab="pools">Live pools</button>
+      <button data-tab="mine">My pools</button>
+      <button data-tab="used" title="Coming soon">Used bikes <em>soon</em></button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Same bike. More buyers.<br><span>Better price.</span></h1>
+      <p>Tell us which bike you're buying. When enough buyers in your city want the same one, we negotiate a group discount with dealers.</p>
+      <ul id="stats" class="stats" aria-live="polite"></ul>
+    </section>
+
+    <!-- NEW BIKES -->
+    <section id="tab-new" class="tab">
+      <div id="brands" class="brands" role="list" aria-label="Brands"></div>
+      <div class="filters">
+        <input id="q" type="search" placeholder="Search bike or brand…" aria-label="Search">
+        <select id="category" aria-label="Category"><option value="">All types</option></select>
+        <select id="fuel" aria-label="Fuel">
+          <option value="">Petrol &amp; electric</option><option value="petrol">Petrol</option><option value="electric">Electric</option>
+        </select>
+        <select id="sort" aria-label="Sort">
+          <option value="brand">Sort: Brand</option><option value="interest">Most interested</option>
+          <option value="price_asc">Price: low to high</option><option value="price_desc">Price: high to low</option>
+        </select>
+      </div>
+      <div id="bikes" class="grid"></div>
+    </section>
+
+    <!-- LIVE POOLS -->
+    <section id="tab-pools" class="tab" hidden>
+      <h2>Live pools</h2>
+      <p class="muted">Every active group, biggest first. Join one to add your name.</p>
+      <div id="pools" class="grid"></div>
+    </section>
+
+    <!-- MY POOLS -->
+    <section id="tab-mine" class="tab" hidden>
+      <h2>My pools</h2>
+      <p class="muted">Stored only in this browser. Pay the fee here once a deal is secured.</p>
+      <div id="mine" class="grid"></div>
+    </section>
+
+    <!-- USED BIKES -->
+    <section id="tab-used" class="tab" hidden>
+      <h2>Used bikes</h2>
+      <div class="soon">
+        <p><strong>Coming in the next milestone.</strong> Sellers will list their old bikes under the same brand &rarr; model structure, and buyers will see interested-buyer counts for pre-owned bikes too.</p>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="bikeDialog" aria-labelledby="dlgTitle"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <footer>Prices are indicative ex-showroom figures, not offers. Discounts are never guaranteed until a deal is confirmed. <a href="/admin">Admin</a></footer>
+  <script src="/app.js"></script>
+</body>
+</html>

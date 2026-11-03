@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BikePool Admin</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="top"><a class="logo" href="/">Bike<span>Pool</span></a><strong>Admin</strong></header>
+  <main style="padding-top:24px">
+    <form id="login" class="form" style="max-width:420px">
+      <label class="full">Admin token<input id="token" type="password" autocomplete="off" required></label>
+      <button class="primary full" type="submit">Load pools</button>
+      <p id="err" class="error full" role="alert"></p>
+    </form>
+    <div id="pools" hidden></div>
+  </main>
+  <div id="toast" role="status"></div>
+  <script src="/admin.js"></script>
+</body>
+</html>

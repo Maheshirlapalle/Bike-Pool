@@ -1,0 +1,753 @@
+{
+ "_note": "Prices are indicative ex-showroom figures in INR, rounded; they are NOT live prices. Edit this file to update the catalog.",
+ "brands": [
+  {
+   "slug": "honda",
+   "name": "Honda",
+   "country": "Japan",
+   "bikes": [
+    {
+     "model": "Shine 125",
+     "category": "commuter",
+     "price": 85000,
+     "cc": 124
+    },
+    {
+     "model": "SP 125",
+     "category": "commuter",
+     "price": 92000,
+     "cc": 124
+    },
+    {
+     "model": "Unicorn",
+     "category": "commuter",
+     "price": 112000,
+     "cc": 162
+    },
+    {
+     "model": "Hornet 2.0",
+     "category": "sports",
+     "price": 140000,
+     "cc": 184
+    },
+    {
+     "model": "CB350",
+     "category": "cruiser",
+     "price": 200000,
+     "cc": 348
+    },
+    {
+     "model": "H'ness CB350",
+     "category": "cruiser",
+     "price": 210000,
+     "cc": 348
+    },
+    {
+     "model": "CB200X",
+     "category": "adventure",
+     "price": 150000,
+     "cc": 184
+    },
+    {
+     "model": "Activa 125",
+     "category": "scooter",
+     "price": 90000,
+     "cc": 124
+    },
+    {
+     "model": "NX200",
+     "category": "sports",
+     "price": 150000,
+     "cc": 184
+    },
+    {
+     "model": "Transalp XL750",
+     "category": "adventure",
+     "price": 1100000,
+     "cc": 755
+    }
+   ]
+  },
+  {
+   "slug": "royal-enfield",
+   "name": "Royal Enfield",
+   "country": "India",
+   "bikes": [
+    {
+     "model": "Hunter 350",
+     "category": "roadster",
+     "price": 150000,
+     "cc": 349
+    },
+    {
+     "model": "Classic 350",
+     "category": "cruiser",
+     "price": 195000,
+     "cc": 349
+    },
+    {
+     "model": "Bullet 350",
+     "category": "cruiser",
+     "price": 175000,
+     "cc": 349
+    },
+    {
+     "model": "Meteor 350",
+     "category": "cruiser",
+     "price": 210000,
+     "cc": 349
+    },
+    {
+     "model": "Himalayan 450",
+     "category": "adventure",
+     "price": 300000,
+     "cc": 452
+    },
+    {
+     "model": "Scram 411",
+     "category": "adventure",
+     "price": 210000,
+     "cc": 411
+    },
+    {
+     "model": "Interceptor 650",
+     "category": "roadster",
+     "price": 300000,
+     "cc": 648
+    },
+    {
+     "model": "Continental GT 650",
+     "category": "cafe racer",
+     "price": 315000,
+     "cc": 648
+    },
+    {
+     "model": "Super Meteor 650",
+     "category": "cruiser",
+     "price": 360000,
+     "cc": 648
+    },
+    {
+     "model": "Shotgun 650",
+     "category": "cruiser",
+     "price": 370000,
+     "cc": 648
+    }
+   ]
+  },
+  {
+   "slug": "bajaj",
+   "name": "Bajaj",
+   "country": "India",
+   "bikes": [
+    {
+     "model": "Platina 110",
+     "category": "commuter",
+     "price": 72000,
+     "cc": 115
+    },
+    {
+     "model": "Pulsar 125",
+     "category": "sports",
+     "price": 92000,
+     "cc": 124
+    },
+    {
+     "model": "Pulsar N160",
+     "category": "sports",
+     "price": 125000,
+     "cc": 164
+    },
+    {
+     "model": "Pulsar NS200",
+     "category": "sports",
+     "price": 155000,
+     "cc": 199
+    },
+    {
+     "model": "Pulsar 220F",
+     "category": "sports",
+     "price": 145000,
+     "cc": 220
+    },
+    {
+     "model": "Dominar 400",
+     "category": "sports tourer",
+     "price": 230000,
+     "cc": 373
+    },
+    {
+     "model": "Avenger Cruise 220",
+     "category": "cruiser",
+     "price": 140000,
+     "cc": 220
+    },
+    {
+     "model": "Freedom 125 (CNG)",
+     "category": "commuter",
+     "price": 100000,
+     "cc": 125
+    },
+    {
+     "model": "Chetak",
+     "category": "scooter",
+     "price": 125000,
+     "fuel": "electric"
+    }
+   ]
+  },
+  {
+   "slug": "suzuki",
+   "name": "Suzuki",
+   "country": "Japan",
+   "bikes": [
+    {
+     "model": "Access 125",
+     "category": "scooter",
+     "price": 85000,
+     "cc": 124
+    },
+    {
+     "model": "Burgman Street",
+     "category": "scooter",
+     "price": 98000,
+     "cc": 124
+    },
+    {
+     "model": "Gixxer",
+     "category": "sports",
+     "price": 140000,
+     "cc": 155
+    },
+    {
+     "model": "Gixxer SF 250",
+     "category": "sports",
+     "price": 200000,
+     "cc": 249
+    },
+    {
+     "model": "V-Strom SX",
+     "category": "adventure",
+     "price": 215000,
+     "cc": 249
+    },
+    {
+     "model": "Hayabusa",
+     "category": "superbike",
+     "price": 1700000,
+     "cc": 1340
+    },
+    {
+     "model": "V-Strom 800DE",
+     "category": "adventure",
+     "price": 1200000,
+     "cc": 776
+    }
+   ]
+  },
+  {
+   "slug": "bmw",
+   "name": "BMW Motorrad",
+   "country": "Germany",
+   "bikes": [
+    {
+     "model": "G 310 R",
+     "category": "roadster",
+     "price": 300000,
+     "cc": 313
+    },
+    {
+     "model": "G 310 GS",
+     "category": "adventure",
+     "price": 350000,
+     "cc": 313
+    },
+    {
+     "model": "G 310 RR",
+     "category": "sports",
+     "price": 285000,
+     "cc": 312
+    },
+    {
+     "model": "F 900 R",
+     "category": "roadster",
+     "price": 950000,
+     "cc": 895
+    },
+    {
+     "model": "R 1250 GS",
+     "category": "adventure",
+     "price": 2200000,
+     "cc": 1254
+    },
+    {
+     "model": "S 1000 RR",
+     "category": "superbike",
+     "price": 2100000,
+     "cc": 999
+    },
+    {
+     "model": "CE 04",
+     "category": "scooter",
+     "price": 1500000,
+     "fuel": "electric"
+    }
+   ]
+  },
+  {
+   "slug": "tvs",
+   "name": "TVS",
+   "country": "India",
+   "bikes": [
+    {
+     "model": "Jupiter 110",
+     "category": "scooter",
+     "price": 80000,
+     "cc": 113
+    },
+    {
+     "model": "Raider 125",
+     "category": "commuter",
+     "price": 95000,
+     "cc": 124
+    },
+    {
+     "model": "Apache RTR 160 4V",
+     "category": "sports",
+     "price": 120000,
+     "cc": 160
+    },
+    {
+     "model": "Apache RTR 200 4V",
+     "category": "sports",
+     "price": 150000,
+     "cc": 197
+    },
+    {
+     "model": "Apache RR 310",
+     "category": "sports",
+     "price": 280000,
+     "cc": 312
+    },
+    {
+     "model": "Ronin",
+     "category": "cruiser",
+     "price": 160000,
+     "cc": 225
+    },
+    {
+     "model": "iQube",
+     "category": "scooter",
+     "price": 125000,
+     "fuel": "electric"
+    }
+   ]
+  },
+  {
+   "slug": "hero",
+   "name": "Hero MotoCorp",
+   "country": "India",
+   "bikes": [
+    {
+     "model": "Splendor Plus",
+     "category": "commuter",
+     "price": 78000,
+     "cc": 97
+    },
+    {
+     "model": "HF Deluxe",
+     "category": "commuter",
+     "price": 65000,
+     "cc": 97
+    },
+    {
+     "model": "Glamour",
+     "category": "commuter",
+     "price": 87000,
+     "cc": 124
+    },
+    {
+     "model": "Xtreme 160R 4V",
+     "category": "sports",
+     "price": 125000,
+     "cc": 163
+    },
+    {
+     "model": "Xpulse 200 4V",
+     "category": "adventure",
+     "price": 150000,
+     "cc": 199
+    },
+    {
+     "model": "Karizma XMR",
+     "category": "sports",
+     "price": 185000,
+     "cc": 210
+    },
+    {
+     "model": "Mavrick 440",
+     "category": "roadster",
+     "price": 200000,
+     "cc": 440
+    },
+    {
+     "model": "Vida V1",
+     "category": "scooter",
+     "price": 100000,
+     "fuel": "electric"
+    }
+   ]
+  },
+  {
+   "slug": "yamaha",
+   "name": "Yamaha",
+   "country": "Japan",
+   "bikes": [
+    {
+     "model": "FZ-S Fi V3",
+     "category": "sports",
+     "price": 120000,
+     "cc": 149
+    },
+    {
+     "model": "FZ-X",
+     "category": "roadster",
+     "price": 135000,
+     "cc": 149
+    },
+    {
+     "model": "MT-15 V2",
+     "category": "sports",
+     "price": 170000,
+     "cc": 155
+    },
+    {
+     "model": "R15 V4",
+     "category": "sports",
+     "price": 185000,
+     "cc": 155
+    },
+    {
+     "model": "R15S",
+     "category": "sports",
+     "price": 175000,
+     "cc": 155
+    },
+    {
+     "model": "Fascino 125",
+     "category": "scooter",
+     "price": 95000,
+     "cc": 125
+    },
+    {
+     "model": "Aerox 155",
+     "category": "scooter",
+     "price": 150000,
+     "cc": 155
+    }
+   ]
+  },
+  {
+   "slug": "ktm",
+   "name": "KTM",
+   "country": "Austria",
+   "bikes": [
+    {
+     "model": "125 Duke",
+     "category": "sports",
+     "price": 175000,
+     "cc": 124
+    },
+    {
+     "model": "200 Duke",
+     "category": "sports",
+     "price": 200000,
+     "cc": 199
+    },
+    {
+     "model": "250 Duke",
+     "category": "sports",
+     "price": 230000,
+     "cc": 249
+    },
+    {
+     "model": "390 Duke",
+     "category": "sports",
+     "price": 300000,
+     "cc": 399
+    },
+    {
+     "model": "390 Adventure",
+     "category": "adventure",
+     "price": 360000,
+     "cc": 399
+    },
+    {
+     "model": "RC 390",
+     "category": "sports",
+     "price": 325000,
+     "cc": 399
+    }
+   ]
+  },
+  {
+   "slug": "kawasaki",
+   "name": "Kawasaki",
+   "country": "Japan",
+   "bikes": [
+    {
+     "model": "Ninja 300",
+     "category": "sports",
+     "price": 350000,
+     "cc": 296
+    },
+    {
+     "model": "Ninja 500",
+     "category": "sports",
+     "price": 520000,
+     "cc": 451
+    },
+    {
+     "model": "Ninja 650",
+     "category": "sports",
+     "price": 730000,
+     "cc": 649
+    },
+    {
+     "model": "Z650",
+     "category": "roadster",
+     "price": 700000,
+     "cc": 649
+    },
+    {
+     "model": "Versys 650",
+     "category": "adventure",
+     "price": 780000,
+     "cc": 649
+    },
+    {
+     "model": "Vulcan S",
+     "category": "cruiser",
+     "price": 750000,
+     "cc": 649
+    },
+    {
+     "model": "Ninja ZX-10R",
+     "category": "superbike",
+     "price": 1700000,
+     "cc": 998
+    }
+   ]
+  },
+  {
+   "slug": "triumph",
+   "name": "Triumph",
+   "country": "United Kingdom",
+   "bikes": [
+    {
+     "model": "Speed 400",
+     "category": "roadster",
+     "price": 240000,
+     "cc": 398
+    },
+    {
+     "model": "Scrambler 400 X",
+     "category": "scrambler",
+     "price": 265000,
+     "cc": 398
+    },
+    {
+     "model": "Thruxton 400",
+     "category": "cafe racer",
+     "price": 270000,
+     "cc": 398
+    },
+    {
+     "model": "Tiger Sport 660",
+     "category": "sports tourer",
+     "price": 900000,
+     "cc": 660
+    },
+    {
+     "model": "Street Triple 765",
+     "category": "roadster",
+     "price": 1000000,
+     "cc": 765
+    },
+    {
+     "model": "Bonneville T120",
+     "category": "cruiser",
+     "price": 1200000,
+     "cc": 1200
+    }
+   ]
+  },
+  {
+   "slug": "ducati",
+   "name": "Ducati",
+   "country": "Italy",
+   "bikes": [
+    {
+     "model": "Scrambler Icon",
+     "category": "scrambler",
+     "price": 1100000,
+     "cc": 803
+    },
+    {
+     "model": "Monster",
+     "category": "roadster",
+     "price": 1300000,
+     "cc": 937
+    },
+    {
+     "model": "Multistrada V2",
+     "category": "adventure",
+     "price": 1700000,
+     "cc": 937
+    },
+    {
+     "model": "Panigale V2",
+     "category": "superbike",
+     "price": 1800000,
+     "cc": 955
+    },
+    {
+     "model": "Diavel V4",
+     "category": "cruiser",
+     "price": 2600000,
+     "cc": 1158
+    }
+   ]
+  },
+  {
+   "slug": "harley-davidson",
+   "name": "Harley-Davidson",
+   "country": "USA",
+   "bikes": [
+    {
+     "model": "X440",
+     "category": "cruiser",
+     "price": 250000,
+     "cc": 440
+    },
+    {
+     "model": "Nightster",
+     "category": "cruiser",
+     "price": 1400000,
+     "cc": 975
+    },
+    {
+     "model": "Street Bob 114",
+     "category": "cruiser",
+     "price": 1800000,
+     "cc": 1868
+    },
+    {
+     "model": "Fat Boy 114",
+     "category": "cruiser",
+     "price": 2200000,
+     "cc": 1868
+    },
+    {
+     "model": "Pan America 1250",
+     "category": "adventure",
+     "price": 1900000,
+     "cc": 1252
+    }
+   ]
+  },
+  {
+   "slug": "jawa-yezdi",
+   "name": "Jawa / Yezdi",
+   "country": "India",
+   "bikes": [
+    {
+     "model": "Jawa 42",
+     "category": "roadster",
+     "price": 175000,
+     "cc": 294
+    },
+    {
+     "model": "Jawa 42 Bobber",
+     "category": "cruiser",
+     "price": 215000,
+     "cc": 334
+    },
+    {
+     "model": "Perak",
+     "category": "cruiser",
+     "price": 215000,
+     "cc": 334
+    },
+    {
+     "model": "Yezdi Roadster",
+     "category": "roadster",
+     "price": 205000,
+     "cc": 334
+    },
+    {
+     "model": "Yezdi Adventure",
+     "category": "adventure",
+     "price": 215000,
+     "cc": 334
+    },
+    {
+     "model": "Yezdi Scrambler",
+     "category": "scrambler",
+     "price": 210000,
+     "cc": 334
+    }
+   ]
+  },
+  {
+   "slug": "ola-electric",
+   "name": "Ola Electric",
+   "country": "India",
+   "bikes": [
+    {
+     "model": "S1 X",
+     "category": "scooter",
+     "price": 80000,
+     "fuel": "electric"
+    },
+    {
+     "model": "S1 Pro",
+     "category": "scooter",
+     "price": 135000,
+     "fuel": "electric"
+    },
+    {
+     "model": "Roadster X",
+     "category": "commuter",
+     "price": 100000,
+     "fuel": "electric"
+    }
+   ]
+  },
+  {
+   "slug": "ather",
+   "name": "Ather",
+   "country": "India",
+   "bikes": [
+    {
+     "model": "Rizta",
+     "category": "scooter",
+     "price": 115000,
+     "fuel": "electric"
+    },
+    {
+     "model": "450S",
+     "category": "scooter",
+     "price": 125000,
+     "fuel": "electric"
+    },
+    {
+     "model": "450X",
+     "category": "scooter",
+     "price": 150000,
+     "fuel": "electric"
+    }
+   ]
+  }
+ ]
+}
